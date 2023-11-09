@@ -1,13 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
+body {
+    background-image: url(./rest.jpeg);
+    background-size: cover;
+}
 #content {
-    width: 100%;
-    height: 100%;
+    max-width: 45%;
+    height: 20rem;
+    margin: auto;
     text-align: center;
+    background-color: rgb(53, 53, 53, 65%);
+    border-radius: 20px;
 }
 
 #content img {
@@ -18,4 +25,32 @@
 
 #content * {
     margin: 2rem;
+    padding: 2rem 0;
+}
+
+#content p {
+    font-size: 1.5rem;
+}
+nav {
+    text-align: center;
+    background-color: rgb(53, 53, 53, 83%);
+}
+nav h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #91ffdb;
+}
+
+nav a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem 0;
+    margin-right: 2.5rem;
+    color: #91dcff;
+}
+
+nav a:hover {
+    transform: scale(1.3);
 }
